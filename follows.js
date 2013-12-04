@@ -348,7 +348,7 @@
 
 					$('#feed-' + data.id + ' .duration-90').click(function() {
 						$('#loadingData').foundation('reveal', 'open');
-						updateFeeds(data.id, thisFeedDatastreams, '1year', 43200);
+						updateFeeds(data.id, thisFeedDatastreams, '1year', 86400);
 						return false;
 					});
 
